@@ -1,0 +1,26 @@
+npx typeorm/ ou npx ts-node-dev ./node_modules/typeorm/cli.js
+
+npx ts-node-dev ./node_modules/typeorm/cli.js migration:create -n create_orphanages
+npx ts-node-dev ./node_modules/typeorm/cli.js migration:run
+
+npx ts-node-dev ./node_modules/typeorm/cli.js migration:revert
+
+npx ts-node-dev ./node_modules/typeorm/cli.js migration:create -n create_images
+npx ts-node-dev ./node_modules/typeorm/cli.js migration:run
+
+
+==========================
+
+multipart form
+{
+	"name": "Lar das meninas",
+	"latitude": -21.5224466,
+	"longitude": -42.6321255,
+	"about": "Sobre o orfanato",
+	"instructions": "Venha visitar usando máscara",
+	"opening_hours": "Das 8h até 18h",
+	"open_on_weekends": true
+}
+
+
+

@@ -8,6 +8,7 @@ npx ts-node-dev ./node_modules/typeorm/cli.js migration:revert
 npx ts-node-dev ./node_modules/typeorm/cli.js migration:create -n create_images
 npx ts-node-dev ./node_modules/typeorm/cli.js migration:run
 
+rodar: npx ts-node-dev --transpile-only --ignore-watch node_modules src/server.ts
 
 ==========================
 

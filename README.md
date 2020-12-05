@@ -1,5 +1,5 @@
 # Happy
-Projeto desenvolvido durante a semana Next Level Week 3.0, na turma Omnistack, promovida pela Rocketseat. O projeto consiste em uma plataforma de estudos online que possibilita conectar alunos com professores.
+Projeto desenvolvido durante a semana Next Level Week 3.0, na turma Omnistack, promovida pela Rocketseat.
 
 ## Linguagens
 * TypeScript

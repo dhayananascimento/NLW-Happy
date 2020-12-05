@@ -43,6 +43,10 @@ $ npx ts-node-dev --transpile-only --ignore-watch node_modules src/server.ts
 ```
 $ cd web
 $ npm install
+
+$ touch .env
+$ adicionar "REACT_APP_MAPBOX_TOKEN=" com o token do mapa
+
 $ npm start
 ```
 
